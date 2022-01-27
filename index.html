@@ -2,34 +2,20 @@
 <html>
   <head>
     <title>Home</title>
-    <style>
-        body{
-          background-image: url("res/background.jpg");
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-attachment: fixed;
-          background: rgba(0,0, 0, 0.5);
-        }
-        p{
-            text-align: center;
-        }
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
-        }
-        footer{
-          margin-top: 10%;
-        }
-    </style>
+    <link rel="stylesheet" href="./styles/style_main.css">
   </head>
   <body>
-    <p>Just some stuffs</p>
+    <ul class="nav">
+      <li class="nav_item"><a class="active" href="#home">Home</a></li>
+      <li class="nav_item"><a href="#news">News</a></li>
+      <li class="nav_item"><a href="#contact">Contact</a></li>
+      <li class="nav_item"><a href="#about">About</a></li>
+    </ul>
+    <p class="first">Just some stuffs</p>
     <hl>
     <img src="res/lavender.jpg" />
     <em></em>
-    <a href="bootstrap/index.html">Bootstrap site</a>
+    <a class="bt_link" href="bootstrap/index.html">Bootstrap site</a>
     <h2>My CS 255 course stuffs</h2>
     <i>Pretty relevant course for us, so nice to have it. I guess.</i>
     <ul>
